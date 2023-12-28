@@ -12,7 +12,7 @@
     "scripts": {
         "build": "turbo run build",
         "build-force": "turbo run build --force",
-        "dev": "cd packages/server && run dev --parallel",
+        "dev": "cd packages/server && npm run dev --parallel",
         "start": "run-script-os",
         "start:windows": "cd packages/server/bin && run start",
         "start:default": "cd packages/server/bin && ./run start",
